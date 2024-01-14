@@ -8,8 +8,6 @@ Besides that, if you are familiar with the limitation of WFWG, the second screen
 
 Tech details will be released in future.
 
-<img src="./WFWG_1.png" width="640">
+<img src="./WFWG_1.png" width="480"> <img src="./WFWG_2.png" width="480">
 
-![WFWG Loaded by IO.SYS](WFWG_1.png) 
 
-![4DOS as WFWG shell](WFWG_2.png)
