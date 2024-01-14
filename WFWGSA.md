@@ -8,6 +8,6 @@ Besides that, if you are familiar with the limitation of WFWG, the second screen
 
 Tech details will be released in future.
 
-![WFWG Loaded by IO.SYS](https://github.com/pufengdu/RetroFuns/blob/main/WFWG_1.png?raw=true)
+![WFWG Loaded by IO.SYS](WFWG_1.png?raw=true)
 
-![4DOS as WFWG shell](https://github.com/pufengdu/RetroFuns/blob/main/WFWG_2.png?raw=true)
+![4DOS as WFWG shell](WFWG_2.png?raw=true)
