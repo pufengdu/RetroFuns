@@ -10,7 +10,7 @@ When I tried it on my 86Box, it works. Amazingly, in this mode, MS-DOS 7.1 kerne
 Under this mode, interesting things like following happen:
 
 <p align="center">
- <img src="./WFWG_STD_1.png" width="800" >
+ <img src="./WFWG_STD_1.png" width="640" >
 </p>
 
 The Program Manager reports that it is running WFWG, while winver.exe tells you that it is Standard Mode Version 3.10.
@@ -24,13 +24,13 @@ To make this mode fully operable, some additional files must be copied from Wind
 Under this mode, 4DOS detects that Windows 3 running in Standard mode, as follows:
 
 <p align="center">
- <img src="./WFWG_STD_2.png" width="800">
+ <img src="./WFWG_STD_2.png" width="640">
 </p>
 
 There is no 386 mode task switching, only Alt+TAB switching is allowed. Alt+Enter is not working. Command prompt can not be run in window mode, only full screen. In the user DOS session, DSWAP is there, while win386 not.
 
 <p align="center">
- <img src="./WFWG_STD_3.png" width="800">
+ <img src="./WFWG_STD_3.png" width="640">
 </p>
  
 The conclusion is: WFWG can be configured to run in standard mode. This mode is the safe mode of WFWG. It can be started using command: 
