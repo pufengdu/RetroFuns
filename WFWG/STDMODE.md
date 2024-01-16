@@ -9,7 +9,9 @@ When I tried it on my 86Box, it works. Amazingly, in this mode, MS-DOS 7.1 kerne
 
 Under this mode, interesting things like following happen:
 
-<img src="./WFWG_STD_1.png" width="800" align="center">
+<div style="text-align:center">
+ <img src="./WFWG_STD_1.png" width="800" >
+</div>
 
 The Program Manager reports that it is running WFWG, while winver.exe tells you that it is Standard Mode Version 3.10.
 
