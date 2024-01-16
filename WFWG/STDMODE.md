@@ -23,11 +23,15 @@ To make this mode fully operable, some additional files must be copied from Wind
 
 Under this mode, 4DOS detects that Windows 3 running in Standard mode, as follows:
 
-<img src="./WFWG_STD_2.png" width="800">
+<p align="center">
+ <img src="./WFWG_STD_2.png" width="800">
+</p>
 
 There is no 386 mode task switching, only Alt+TAB switching is allowed. Alt+Enter is not working. Command prompt can not be run in window mode, only full screen. In the user DOS session, DSWAP is there, while win386 not.
 
-<img src="./WFWG_STD_3.png" width="800">
+<p align="center">
+ <img src="./WFWG_STD_3.png" width="800">
+</p>
  
 The conclusion is: WFWG can be configured to run in standard mode. This mode is the safe mode of WFWG. It can be started using command: 
 
