@@ -2,4 +2,4 @@
 
 ## A Test
 
-[Test Link](../WFWG/STDMODE)
+[Test Link](../WFWG/STDMODE.md)
