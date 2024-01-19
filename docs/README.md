@@ -2,7 +2,7 @@
 
 ## A Test
 
-[Test Link](../WFWG/STDMODE.md)
+[Test Link](../WFWG/STDMODE)
 
 
 
