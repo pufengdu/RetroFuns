@@ -42,7 +42,7 @@ CD-ROM = ATAPI IDE 16X on Secondary IDE Channel as a master device
 
 ![image](https://github.com/pufengdu/RetroFuns/assets/5275359/ae54a462-30f6-4451-a4be-a74804e5a6b9)
 
-Nothing else.
+Nothing else. Ignoring some details, this is my first PC when I was 14. I had my best PC experience on that machine.
 
 
 
