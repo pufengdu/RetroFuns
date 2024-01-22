@@ -23,6 +23,29 @@ Sound: SB16 (ISA16)
 
 ![image](https://github.com/pufengdu/RetroFuns/assets/5275359/ca202ba8-b665-4c00-b6e5-f75e7148a3e3)
 
+Network: RTL8029AS (PCI)
+
+![image](https://github.com/pufengdu/RetroFuns/assets/5275359/46abe0f2-e28d-4921-ae6d-cfb635e00f23)
+
+Printer: Generic PostScript Printer on LPT1
+
+![image](https://github.com/pufengdu/RetroFuns/assets/5275359/1e882480-c076-4241-b1d1-a28f111deb45)
+
+HDD: 2GB on Primary IDE Channel as a master device
+
+![image](https://github.com/pufengdu/RetroFuns/assets/5275359/8d1f917f-d7c8-4266-b9c5-5f9fc1f619de)
+
+Floppy & CD-ROM:
+A = 1.44M 3.5"
+B = 1.2M 5.25"
+CD-ROM = ATAPI IDE 16X on Secondary IDE Channel as a master device
+
+![image](https://github.com/pufengdu/RetroFuns/assets/5275359/ae54a462-30f6-4451-a4be-a74804e5a6b9)
+
+Nothing else.
+
+
+
 
 
 
