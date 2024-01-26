@@ -11,8 +11,6 @@ I used my usuall Laptop, A Lenovo T480 with 64GB RAM and i7-8550U running Window
 
 **RAM**: 64MB
 
-<img src="https://github.com/pufengdu/RetroFuns/assets/5275359/839c588e-3529-4290-bbd5-a65f4bab273e" align="center" width=640px />
-
 ![image](https://github.com/pufengdu/RetroFuns/assets/5275359/839c588e-3529-4290-bbd5-a65f4bab273e)
 
 **Video**: S3 Trio64V2/DX (4MB)
