@@ -9,3 +9,7 @@ This is tricky, but [possible](IOLOADWFWG.md).
 ## WFWG's standard mode
 
 This is rarely mentioned, but [exist](STDMODE.md).
+
+## Installing WFWG on PC-DOS 7.1 on a FAT32 partition
+
+Sounds challenging, but [simple in fact](WFWPCDOS71.md).
