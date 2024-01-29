@@ -4,7 +4,9 @@
 
 The very interesting result is: this is possible. Running WFW on PC-DOS 7.1 is pretty simple, like on MS-DOS 7.1. I know that many people have failed in doing this. Some thread on [Vogon](https://www.vogons.org/viewtopic.php?f=61&t=67237) does not look like a success. However, I made them work. The most important tip is: **Refrain your finger from touching the 32BFA or 32BDA options**, if you do not want any weird event. The best choice of the Virtual Memory setting is: a **temporary swap file** on a FAT32 partition, with **Disk Access = Using MS-DOS**, and **32BFA/32BDA OFF**. See the following figure, size of the swap file does not matter. 
 
-<img src="https://github.com/pufengdu/RetroFuns/assets/5275359/6f771d3e-5ca8-4462-8502-62644be66b1d" width="50%" align="center" />
+<p align="center">
+  <img src="https://github.com/pufengdu/RetroFuns/assets/5275359/6f771d3e-5ca8-4462-8502-62644be66b1d" width="50%" />
+</p>
 
 ## Installation steps
 
@@ -55,7 +57,9 @@ After performing all these, WFW should work smoothly on a FAT32 partition in PC-
 
 **Tip 2**: Once you began to do Tip 1, never ever click "Restart Windows" in the following dialog box, or the "Restart computer" in some similar box. Make sure you always choose "Continue". There is a potential risk of data lose if you violate this. After choosing "Continue", exit windows and restart manually.
 
-<img src=https://github.com/pufengdu/RetroFuns/assets/5275359/cc9f368c-401d-44ca-8f99-ebeae9b24627 width="40%" /> <img src=https://github.com/pufengdu/RetroFuns/assets/5275359/2b6b27ab-f07f-44e5-9aaf-76928126de80 width="40%" />
+<p align="center">
+  <img src=https://github.com/pufengdu/RetroFuns/assets/5275359/cc9f368c-401d-44ca-8f99-ebeae9b24627 width="40%" /> <img src=https://github.com/pufengdu/RetroFuns/assets/5275359/2b6b27ab-f07f-44e5-9aaf-76928126de80 width="40%" />
+</p>
 
 **Tip 3**: If you installed your WFW on a FAT16 partition in PC-DOS 7.1. All those installation steps are still needed to make it work for the first time! After that, you can enable permanent swap file and 32 BFA as described in Tip 2. Before you restart WFW, make sure to edit **SYSTEM.INI [386enh]**, now the 
 
