@@ -56,9 +56,7 @@ After performing all these, WFW should work smoothly on a FAT32 partition in PC-
 
 **Tip 2**: Once you began to do Tip 1, never ever click "Restart Windows" in the following dialog box, or the "Restart computer" in some similar box. Make sure you always choose "Continue". There is a potential risk of data lose if you violate this. After choosing "Continue", exit windows and restart manually.
 
-<img src=https://github.com/pufengdu/RetroFuns/assets/5275359/cc9f368c-401d-44ca-8f99-ebeae9b24627 width="50%" />
-
-<img src=https://github.com/pufengdu/RetroFuns/assets/5275359/2b6b27ab-f07f-44e5-9aaf-76928126de80 width="50%" />
+<img src=https://github.com/pufengdu/RetroFuns/assets/5275359/cc9f368c-401d-44ca-8f99-ebeae9b24627 width="50%" /> <img src=https://github.com/pufengdu/RetroFuns/assets/5275359/2b6b27ab-f07f-44e5-9aaf-76928126de80 width="50%" />
 
 ![image](https://github.com/pufengdu/RetroFuns/assets/5275359/cc9f368c-401d-44ca-8f99-ebeae9b24627)
 
