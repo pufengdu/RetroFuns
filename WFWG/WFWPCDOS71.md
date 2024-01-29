@@ -4,8 +4,7 @@
 
 The very interesting result is: this is possible. Running WFW on PC-DOS 7.1 is pretty simple, like on MS-DOS 7.1. I know that many people have failed in doing this. Some thread on [Vogon](https://www.vogons.org/viewtopic.php?f=61&t=67237) does not look like a success. However, I made them work. The most important tip is: **Refrain your finger from touching the 32BFA or 32BDA options**, if you do not want any weird event. The best choice of the Virtual Memory setting is: a **temporary swap file** on a FAT32 partition, with **Disk Access = Using MS-DOS**, and **32BFA/32BDA OFF**. See the following figure, size of the swap file does not matter. 
 
-![image](https://github.com/pufengdu/RetroFuns/assets/5275359/6f771d3e-5ca8-4462-8502-62644be66b1d)
-
+<img src="https://github.com/pufengdu/RetroFuns/assets/5275359/6f771d3e-5ca8-4462-8502-62644be66b1d" width="50%" align="center" />
 
 ## Installation steps
 
