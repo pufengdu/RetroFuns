@@ -28,7 +28,7 @@ DEVICE=C:\WINDOWS\IFSHLP.SYS
 
 A reboot is required to apply these directives.
 
-5 The following directive MUST be commented out in your SYSTEM.INI [386enh]
+5 The following directive MUST be commented out in your **SYSTEM.INI [386enh]**
 
 ```
 device=vshare.386
@@ -42,7 +42,7 @@ It must be changed to
 
 or be deleted.
 
-6 The WINA20.386 from PC-DOS 2000 is needed. It should be placed in the SYSTEM directory of your WFW installation. Plus, the following directive must be added in SYSTEM.INI [386enh]
+6 The WINA20.386 from PC-DOS 2000 is needed. It should be placed in the SYSTEM directory of your WFW installation. Plus, the following directive must be added in **SYSTEM.INI [386enh]**
 
 ```
 device=wina20.386
@@ -56,11 +56,7 @@ After performing all these, WFW should work smoothly on a FAT32 partition in PC-
 
 **Tip 2**: Once you began to do Tip 1, never ever click "Restart Windows" in the following dialog box, or the "Restart computer" in some similar box. Make sure you always choose "Continue". There is a potential risk of data lose if you violate this. After choosing "Continue", exit windows and restart manually.
 
-<img src=https://github.com/pufengdu/RetroFuns/assets/5275359/cc9f368c-401d-44ca-8f99-ebeae9b24627 width="50%" /> <img src=https://github.com/pufengdu/RetroFuns/assets/5275359/2b6b27ab-f07f-44e5-9aaf-76928126de80 width="50%" />
-
-![image](https://github.com/pufengdu/RetroFuns/assets/5275359/cc9f368c-401d-44ca-8f99-ebeae9b24627)
-
-![image](https://github.com/pufengdu/RetroFuns/assets/5275359/2b6b27ab-f07f-44e5-9aaf-76928126de80)
+<img src=https://github.com/pufengdu/RetroFuns/assets/5275359/cc9f368c-401d-44ca-8f99-ebeae9b24627 width="40%" /> <img src=https://github.com/pufengdu/RetroFuns/assets/5275359/2b6b27ab-f07f-44e5-9aaf-76928126de80 width="40%" />
 
 **Tip 3**: If you installed your WFW on a FAT16 partition in PC-DOS 7.1. All those installation steps are still needed to make it work for the first time! After that, you can enable permanent swap file and 32 BFA as described in Tip 2. Before you restart WFW, make sure to edit **SYSTEM.INI [386enh]**, now the 
 
