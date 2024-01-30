@@ -61,7 +61,7 @@ After performing all these, WFW should work smoothly on a FAT32 partition in PC-
   <img src=https://github.com/pufengdu/RetroFuns/assets/5275359/cc9f368c-401d-44ca-8f99-ebeae9b24627 width="40%" /> <img src=https://github.com/pufengdu/RetroFuns/assets/5275359/2b6b27ab-f07f-44e5-9aaf-76928126de80 width="40%" />
 </p>
 
-**Tip 3**: If you installed your WFW on a FAT16 partition in PC-DOS 7.1. All those installation steps are still needed to make it work for the first time! After that, you can enable permanent swap file and 32 BFA as described in Tip 2. Before you restart WFW, make sure to edit **SYSTEM.INI [386enh]**, now the 
+**Tip 3**: If you installed your WFW on a FAT16 partition in PC-DOS 7.1. All those installation steps are still needed to make it work for the first time! After that, you can enable permanent swap file with **32BFA** as described in Tip 1 and 2. Before you restart WFW, make sure to edit **SYSTEM.INI [386enh]**, now the 
 
 ```
 device=vshare.386 
