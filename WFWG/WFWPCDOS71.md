@@ -71,9 +71,11 @@ device=vshare.386
 
 **Tip 4**: Be aware, after Tip 3, you are restricted to run programs that are stored on your FAT16 partition ONLY!. All attempt to execute a program on a FAT32 partition will result in Sector not found error like the following. 
 
-Be sure to choose "A" in the case of the following figure!! Never choose "I", which may result in data lose here. However, you can copy files from other drives to your FAT16 partition.
-
 ![image](https://github.com/pufengdu/RetroFuns/assets/5275359/1fbda580-129a-4e3c-8491-e92a9b71b25d)
+
+The only exeception is the **COMMAND.COM**. I have no idea why. But I suspect this is related to PC-DOS 7.1 internals, as calling INT 21H/AX=4BH (DOS EXEC) in DEBUG will produce a "File not found" error. 
+
+Be sure to choose "A" in case of the above figure!! Never choose "I", which may result in data lose here. However, you can copy files from other drives to your FAT16 partition.
 
 **Tip 5**: 32BDA can also be enabled after Tip4. Surely, a proper driver is needed. The MicroHouse MH32BIT.386 works in my case. The behavior does not change much.
 
