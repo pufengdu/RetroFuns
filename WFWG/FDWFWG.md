@@ -47,7 +47,7 @@ InDOSPolling=True
 
 After all these modifications, WFWG should work on FreeDOS 1.3, even on a FAT32 partition. Surely, this is like almost every FAT32 DOS running WFWG. Never try to enable 32BFA or 32BDA and live with a temporary swap file.
 
-Plus, the FreeCom does not respond to task-switch under WFWG. Replace it with 4DOS 8.0, which is also free. However, if you keep FreeCom to work only in full screen, it is ok. 
+Plus, the FreeCom response in dos window is weird. After task-switching keys, like Alt+TAB or Alt+Enter is pressed, it will not execute that task switching, an addition Enter key must be pressed to make the previous key effective. I am not sure why. Just replace it with 4DOS 8.0, which is also free. However, if you keep FreeCom to work only in full screen, it is ok. 
 
 ## Conclusion
 
