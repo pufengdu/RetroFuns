@@ -1,5 +1,7 @@
 # WFWG on FreeDOS
 
+### Authored by: [Pu-Feng Du](https://github.com/pufengdu)
+
 ## Background
 FreeDOS is a good open source implementation of DOS. According to its [official statement](http://wiki.freedos.org/wiki/index.php/FreeDOS_Spec), it mimics MS-DOS 6.22. However, one obvious different is: FreeDOS is generally unable to start Windows 3.x in 386 enhanced mode. This has been discussed widely online, including FreeDOS [official wiki](http://wiki.freedos.org/wiki/index.php/Windows), and also [VOGON](https://www.vogons.org/viewtopic.php?f=61&t=51577).
 
