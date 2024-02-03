@@ -16,4 +16,4 @@ Sounds challenging, but [simple in fact](WFWPCDOS71.md).
 
 ## WFWG on FreeDOS
 
-WFWG can be run on FreeDOS 1.3. [This is real](FDWFWG.md), not a fake.
+WFWG can run on FreeDOS 1.3. [This is real](FDWFWG.md), not a fake.
