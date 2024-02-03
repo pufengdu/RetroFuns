@@ -9,9 +9,10 @@ However, most people mention that Windows 3.11 or WFWG do not work in FreeDOS. O
 
 According to my test, WFWG also works, with more settings. See below for two screen shots:
 
-<img src="https://github.com/pufengdu/RetroFuns/assets/5275359/2ef84b3a-6864-439e-a2fb-7c716f388d4e" width="40%" />
-
-<img src="https://github.com/pufengdu/RetroFuns/assets/5275359/b99c8265-7fd0-4693-bdd0-746071bb92ee" width="40%" />
+<p align="center">
+  <img src="https://github.com/pufengdu/RetroFuns/assets/5275359/2ef84b3a-6864-439e-a2fb-7c716f388d4e" width="40%" />
+  <img src="https://github.com/pufengdu/RetroFuns/assets/5275359/b99c8265-7fd0-4693-bdd0-746071bb92ee" width="40%" />
+</p>
 
 Although you see the version show 7.1,this is not a fake. If you are familiar with FreeDOS, you know this is set by FreeDOS kernel for compatibility. 
 
