@@ -24,15 +24,17 @@ q
 
 ```
 
-Just save the above script as DUMPMBR.DBS, and call it with
+Just save the above script as `DUMPMBR.DBS`, and call it with
 
 
 ```
 DEBUG < DUMPMBR.DBS
 ```
 
-It will dump MBR into the mbr.bin file. Process like the following screenshot.
+It will dump MBR into the `mbr.bin` file. Process like the following screenshot.
 
 <p align="center">
   <img src="https://github.com/pufengdu/RetroFuns/assets/5275359/cf043c25-3b6a-4359-b174-1b011082e05e" width="60%"/>
 </p>
+
+Please note the NC flag. That indicates a successful reading.
