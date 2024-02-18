@@ -67,7 +67,7 @@ mov ss, dx
 add sp, bx
 ```
 
-### 3 Will DOS device loader load an EXE format driver?
+### 3 How DOS device loader load an EXE format driver?
 
-Yes. It performs loading, **relocation**, striping off the EXE header, and then process the remaining binary image in the memory like BIN format or SYS format.
+It performs loading, **relocation**, striping off the EXE header, and then process the remaining binary image in the memory like BIN format or SYS format. Just different entrance than running an EXE.
 
