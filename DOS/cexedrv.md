@@ -40,6 +40,22 @@ macro invoke_c r_sys_data, r_sys_stack, r_c_data, r_c_stack, r_c_stack_size, r_c
 endm
 ```
 
+Use the macro invoke_c like the follows:
+
+```asm
+codeseg
+
+...
+
+    proc exe_main
+		invoke_c sys_data, sys_stack, @data, @stack, STACK_SIZE, devmain
+        mov ah, 4ch
+        int 21h      
+    endp   
+ends
+
+end exe_main
+```
 
 If DS==SS is assumed by BOTH C and ASM, adjust DS and SS:SP before invoking C functions, because it is not default by ASM. Use somthing like:
 
