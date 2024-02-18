@@ -12,18 +12,18 @@ Yes, a lot of them exist. How is the only question. Compile and link C obj files
 
 ```asm
 macro enter_c r_sys_data, r_sys_stack, r_c_data
-	;; r_sys_stack: dd for keeping system ss:sp
+    ;; r_sys_stack: dd for keeping system ss:sp
     ;; r_sys_data: dw for keeping system ds, must be in CS segment
     ;; r_c_data: ds for c realm, @data is ok for small model
-   	mov [word ptr cs:r_sys_data], ds
-   	push r_c_data
+    mov [word ptr cs:r_sys_data], ds
+    push r_c_data
     pop ds
     mov [word ptr ds:r_sys_stack], sp
     mov [word ptr ds:r_sys_stack + 2],ss
 endm
 
 macro leave_c r_sys_data, r_sys_stack
-	;; r_sys_stack: dd for keeping system ss:sp
+    ;; r_sys_stack: dd for keeping system ss:sp
     ;; r_sys_data: dw for keeping system ds, must be in CS segment
     mov sp, [word ptr ds:r_sys_stack]
     mov ss, [word ptr ds:r_sys_stack + 2]
@@ -31,7 +31,7 @@ macro leave_c r_sys_data, r_sys_stack
 endm
 
 macro invoke_c r_sys_data, r_sys_stack, r_c_data, r_c_stack, r_c_stack_size, r_c_proc
-	enter_c r_sys_data, r_sys_stack, r_c_data
+    enter_c r_sys_data, r_sys_stack, r_c_data
     push r_c_stack
     pop ss
     mov sp, r_c_stack_size
