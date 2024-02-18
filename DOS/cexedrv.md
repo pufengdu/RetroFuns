@@ -1,4 +1,4 @@
-# Writing exe format device drivers in C with a small model and farstack
+# Writing exe format DOS device drivers in C with a small model and farstack
 
 ## Notes
 
