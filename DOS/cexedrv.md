@@ -40,15 +40,13 @@ macro invoke_c r_sys_data, r_sys_stack, r_c_data, r_c_stack, r_c_stack_size, r_c
 endm
 ```
 
-Use the macro invoke_c like the follows:
+Use the macro `invoke_c` like the follows:
 
 ```asm
 codeseg
-
 ...
-
     proc exe_main
-		invoke_c sys_data, sys_stack, @data, @stack, STACK_SIZE, devmain
+        invoke_c sys_data, sys_stack, @data, @stack, STACK_SIZE, devmain
         mov ah, 4ch
         int 21h      
     endp   
@@ -69,4 +67,7 @@ mov ss, dx
 add sp, bx
 ```
 
+### 3 Will DOS device loader load an EXE format driver
+
+Yes. It performs loading, **relocation** and then process the binary image in the memory like BIN format or SYS format.
 
