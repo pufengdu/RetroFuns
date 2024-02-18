@@ -12,7 +12,7 @@ Yes, a lot of them exist. How is the only question. Compile and link C obj files
 
 If DS==SS is assumed by BOTH C and ASM, adjust DS and SS:SP before invoking C functions, because it is not default by ASM. Use somthing like:
 
-```lang=asm
+```asm
 mov dx, @data
 mov ds, dx
 mov bx, ss
