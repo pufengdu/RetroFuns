@@ -4,7 +4,7 @@
 
 ### 1 Can device drivers be written in C?
 
-Yes, but not completely. Some ASM is needed. Just do not link C startup codes. Write some ASM lines to set segment registers for C routines, and also set header of a driver.
+Yes, but not completely. Some ASM is needed. Just do not link C startup codes. Write some ASM lines to set segment registers for C routines, and also set header of a driver. Try to avoid CRT completely. Some CRT functions depend on C startup codes. TASM official user guide stated that. 
 
 ### 2 Can device drivers be an EXE?
 
