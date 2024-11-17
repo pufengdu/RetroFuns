@@ -17,14 +17,19 @@ The complication of these patches is that they are not universal for different b
 For the details of patches, check links below for details (Read them through, if you are not a Chinese, use a translation software like google translate.) Again, all we need is the DSDT patching part, not the dxe module replacement / insertion part.
 
 For GigaByte 7x / MSI H87 / Asrock Z87 /Asus H87
+
 https://github.com/xCuri0/ReBarUEFI/wiki/DSDT-Patching
 
 For GigaByte Z97 / Z87
+
 https://www.bilibili.com/opus/932064528133259305?spm_id_from=333.999.0.0
 
 Once you have made your own patch, you may try loading them using Grub and test them by Linux first, as described
+
 https://winraid.level1techs.com/t/enable-above-4g-decoding-for-gigabyte-z97x-sli/90728/9
+
 and may be referenced with
+
 https://wiki.archlinux.org/title/DSDT#Using_modified_code
 
 After testing, these patches must be flashed. The above way, in my test, only safely work on GigaByte boards with dual-bios protections. Because these patches, may potentially brick your mobo. GigaByte dual-bios can save you from that. For Asus and Asrock boards, even they have FlashBack protection, you can not do this easily. Because:
@@ -40,13 +45,19 @@ For MSI boards, even it has the M-flash mech, which allow you to test your patch
 All above issues exist if you decide to patch and flash DSDT patches to UEFI firmware in your mobos. However, we have a different way of doing this. The hint comes from here:
 
 Clover bootloader can be used to load DSDT patches before OS loading. This works for Windows.
+
 https://gist.github.com/raenye/d6645d7039a6136ccfb055e0f8517698
+
 Since all we need is the DSDT patches, not the rebar dxe driver, we can use boot loaders to load DSDT patches.
 
 Several tips for using this method to solve our case:
+
 1 Clover bootloader MUST be installed AFTER Windows installation.
+
 2 Clover bootloader MUST have the config.plist config file
+
 3 Directory structure MUST be established as described: 
+
 https://cloverhackycolor.github.io/Clover-Documentation/#Fixing-DSDT
 
 4 The original DSDT MUST be saved in Clover by pressing F4. It is different to the one we extracted from the BIOS images! Patches MUST be made based on the Clover boot loader version DSDT.
