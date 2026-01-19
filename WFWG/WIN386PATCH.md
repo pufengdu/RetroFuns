@@ -30,7 +30,7 @@ I have tried Windows 3.1, WFW3.11, and Windows 3.2 CHS edition. All have same pa
 
 ### 3 Copy the patched DOSMGR.VXD to the SYSTEM directory of your windows 3.x installation.
 
-Just or better feelings, name it as DOSMGR.386
+Just for better feelings, name it as DOSMGR.386
 
 ### 4 Switch On/Off the patch in your SYSTEM.INI
 
