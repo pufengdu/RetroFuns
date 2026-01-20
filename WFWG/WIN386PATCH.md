@@ -6,7 +6,7 @@ It is a common knowledge in the retro computing, that installing Windows 3.x on 
 
 Here, I propose an alternative way for this patching WIN386.EXE. 
 
-With the [VXDLIB](https://web.archive.org/web/20061231040431/http://www.tbcnet.com/~clive/vxdlib.zip) tools from Clive Turve, WIN386.EXE can be extracted to several separate VxD files. Or, you may also call them 386 files, in the context of Windows 3.x. The patch, which is from R Loew, resides in the DOSMGR.VXD. Therefore, patching DOSMGR.VXD will be enough. The patched VxD file can be loaded via configurations in the SYSTEM.INI. This is better than directly patching WIN386.EXE, as it can be unloaded easily, just by adding a colon in SYSTEM.INI.
+With the [VXDLIB](https://web.archive.org/web/20061231040431/http://www.tbcnet.com/~clive/vxdlib.zip) tools from Clive Turvey, WIN386.EXE can be extracted to several separate VxD files. Or, you may also call them 386 files, in the context of Windows 3.x. The patch, which is from R Loew, resides in the DOSMGR.VXD. Therefore, patching DOSMGR.VXD will be enough. The patched VxD file can be loaded via configurations in the SYSTEM.INI. This is better than directly patching WIN386.EXE, as it can be unloaded easily, just by adding a colon in SYSTEM.INI.
 
 The full steps are here:
 
