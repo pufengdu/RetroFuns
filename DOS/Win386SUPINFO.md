@@ -16,8 +16,8 @@ Can anyone here answer those qeustions?
 Win386_Info	struct
 	db 4, 0                                   ; 04 00 
 	dd 0, 0, 0                                ; 00 00 00 00 
-                                            ; 00 00 00 00
-                                            ; 00 00 00 00
+                                              ; 00 00 00 00
+                                              ; 00 00 00 00
 	dw offset dosdata:Instance_Table, 0       ; F7 0E C9 00
 	dw offset dosdata:Opt_Instance_Table, 0   ; 3D 0F C9 00
 Win386_Info ends
@@ -36,7 +36,7 @@ Instance_Table struct
 	dw offset dosdata:carpos,0,106h     ; F9 01 C9 00 06 01
 	dw offset dosdata:charco,0,1        ; 00 03 C9 00 01 00
 	dw offset dosdata:exec_init_sp,0,34 ; BF 0E C9 00 00 22
-	dw offset dosdata:umbflag,0,1	      ; 89 00 C9 00 01 00
+	dw offset dosdata:umbflag,0,1	    ; 89 00 C9 00 01 00
 	dw offset dosdata:umb_head,0,2      ; 8C 00 C9 00 02 00
 	dw offset dosdata:EXECA20,0,1       ; 86 00 C9 00 01 00
 	dw offset dosdata:UDF1,0,1          ; B8 12 C9 00 01 00
