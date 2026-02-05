@@ -9,7 +9,8 @@ Can anyone here answer those qeustions?
 ```
 ; ===
 ; Win386_Info
-; This is from memory dump and inferred based on Jeff Parsons SPY:DOS.INC, and MD6S:dostab.asm. MD6S(MS-DOS 6 source code leaks)
+; This is from memory dump and inferred based on Jeff Parsons SPY:DOS.INC, and MD6S:dostab.asm.
+; MD6S(MS-DOS 6 source code leaks)
 ; ===
 ; @dosdata:EE1
 Win386_Info	struct
