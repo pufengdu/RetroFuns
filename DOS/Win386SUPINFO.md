@@ -51,7 +51,7 @@ Instance_Table ends
 ; @dosdata:F3D
 ; This structure provides a description that excluedes SFT and DPB from DOSDATA segment
 Opt_Instance_Table struct
-	dw offset dosdata:sysinit, CCH         ; 00 00 C9 00 CC 00 ; 0000 + 00CC = 00CC (This is the beginning of SFT)
+	dw offset dosdata:sysinit, 0, CCH      ; 00 00 C9 00 CC 00 ; 0000 + 00CC = 00CC (This is the beginning of SFT)
 	dw offset dosdata:carpos,0, 114DH      ; F9 01 C9 00 4D 11 ; 01F9 + 114D = 1346 (This is the beginning of DPB)
 	dw 0, 0                                ; 00 00 00 00
 Opt_Instance_Table ends
