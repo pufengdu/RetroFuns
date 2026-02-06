@@ -42,7 +42,7 @@ Instance_Table struct
 	dw offset dosdata:UDF1,0,1                ; B8 12 C9 00 01 00
 	dw offset dosdata:UDF2,0,1                ; B9 12 C9 00 01 00
 	dw 0, 0, 0                                ; 00 00 00 00 00 00
-	dw 0, 0                                   ; 00 00
+	dw 0, 0                                   ; 00 00 00 00
 Instance_Table ends
 
 ; ===
