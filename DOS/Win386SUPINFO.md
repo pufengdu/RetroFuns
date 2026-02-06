@@ -2,7 +2,7 @@
 
 I spent some time in reversing the DOSDATA segment of MS-DOS 7.1 (Winver=4.10.2222). Below is a part of it, all regarding data structures for running Windows in 386 mode.
 
-I still have questions, see those question marks below.
+I still have questions, see those question marks below, particularly regarding UDF1 and UDF2. Now I know that UDF2 is a counter for critical device driver operation in progress. UDF1 is a flag that is usually operated along with the InDOS flag inside SDA.
 
 Can anyone here answer those qeustions?
 
